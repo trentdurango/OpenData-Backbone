@@ -2,10 +2,10 @@
 (function () {
 
   'use strict';
-    
+
   MyOD.module('ErrorModule', function (ErrorModule, App, Backbone, Marionette, $, _) {
 
-    ErrorModule.Controller = Marionette.Controller.extend({ 
+    ErrorModule.Controller = Marionette.Controller.extend({
 
       initUi: function (options) {
         // init the results view in here so it re-binds on "back button"
